@@ -11,12 +11,15 @@
     height: 100vh;
     width: 100%;
     background-color: #b6f997;
+    background-color: #222831;
     text-align: center;
+    color:white;
 }
 .right {
     height: 100vh;
     width: 100%;
-    background-color: #9ee8ff;
+    /* background-color: #9ee8ff; */
+    background-color: #f7fbe1;
     text-align: center;
 
 }
@@ -26,4 +29,27 @@
 }
 .image{
     height:200px;
+}
+.center{
+    display: flex;
+    padding: 10px;
+    left:200px;
+    /* text-align: center; */
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    /* background-image: linear-gradient(to right, #b6f997, #9ee8ff);
+     */
+     /* background: #ffb19f; */
+     background-color: #111d5e;
+     color: white;
+}
+.hide{
+    display: none;
+}
+
+.border{
+    /* border: 2px solid red; */
+    /* box-shadow: 10px 10px  red; */
+    background-color: rgba(255, 0,0, 0.8);
 }
